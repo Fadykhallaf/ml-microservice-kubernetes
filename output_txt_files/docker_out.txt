@@ -1,1 +1,13 @@
+172.17.0.1 - - [06/Apr/2021 12:53:31] "GET / HTTP/1.1" 200 -
+172.17.0.1 - - [06/Apr/2021 12:53:32] "GET /favicon.ico HTTP/1.1" 404 -
+[2021-04-06 12:54:27,788] INFO in app: JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2021-04-06 12:54:27,810] INFO in app: Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2021-04-06 12:54:27,822] INFO in app: Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2021-04-06 12:54:27,827] INFO in app: Prediction values: [20.35373177134412]
+172.17.0.1 - - [06/Apr/2021 12:54:27] "POST /predict HTTP/1.1" 200 -
 <paste log output from Docker prediction, here>
