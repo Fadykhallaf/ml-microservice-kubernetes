@@ -10,4 +10,3 @@
 0     0  6.575  296.0     15.3  396.9   4.98
 [2021-04-06 12:54:27,827] INFO in app: Prediction values: [20.35373177134412]
 172.17.0.1 - - [06/Apr/2021 12:54:27] "POST /predict HTTP/1.1" 200 -
-<paste log output from Docker prediction, here>
